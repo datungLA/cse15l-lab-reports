@@ -9,9 +9,9 @@ The relevant argument to these methods is the query as with and without a query 
 ![Image](stringServerCode.png)\
 ## Part 2
 a) The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)\
-![Image](privatePathKey.png)\
+![Image](privateKeyPath.png)\
 b) The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)\
-![Image](publicPathKey.png)\
+![Image](publicKeyPath.png)\
 c) A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
 ![Image](terminalInteraction.png)\
 ## Part 3
