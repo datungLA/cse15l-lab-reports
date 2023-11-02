@@ -22,7 +22,7 @@ For ServerHttpHandler.handle(...), the relevant argument is `exchange`, specific
 For Handler.handleRequest(...), the relevant argument is `url` which would be the same as exchange.getRequestURI() from above.
 ## Changes:
 In Handler.handleRequest(...), the num is incremented from 4 to 5.\
-The str in Handler class gets appended with "4: datung\n".
+The str in Handler class gets appended with "5: datung\n".
 
 # Code for stringServer
 
