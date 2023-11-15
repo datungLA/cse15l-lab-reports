@@ -139,11 +139,14 @@ These options allow you to find files based on modification (-mtime), access (-a
 `find technical -name "*.txt" -mtime 0`
 
 ## -exec (Chatgpt: chat.openai.com)
+`prompt:` \
+more interesting command lines option of find \
 `output:` \
 The -exec option in the find command is a powerful feature that allows you to execute a command on each file that matches your find criteria. \
 This capability extends the functionality of find from just locating files to performing actions on them. Here's a deeper look into how -exec works and some examples: \
 ... \
 `altered/usage:` \
-
+`find technical/biomed/ -name "*.txt" -exec wc -l {} \;` \
+`find technical/biomed/ -name "*.txt" -exec grep -r "base pair" {} \;`
 
 
