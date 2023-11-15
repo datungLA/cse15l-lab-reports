@@ -109,4 +109,41 @@ the `-type` flag allows the user to find files with a specific type such as dire
 
 In this case, the user is asking for type `f` which is a normal file.
 
+# Citations:
+## Part 2 
+## -type (Chatgpt: chat.openai.com)
+`prompt: ` \
+commands line options for type in unix \
+`output: ` \
+In Unix and Unix-like operating systems, the find command provides the -type option to specify the type of the file you are looking for. The -type option is followed by a single character that indicates the type of file. Here are the most commonly used file types you can specify with this option: \
+Regular File (f): \
+find . -type f searches for regular files. \
+Directory (d): \
+find . -type d searches for directories. \
+Symbolic Link (l): \
+find . -type l searches for symbolic links. \
+... \
+`altered/usage:` \
+`find technical -type f -iname "imlucky.txt"` \
+`find technical -type d -iname "PLOS"`
+
+## -mtime (Chatgpt: chat.openai.com)
+`prompt:` \
+more interesting command lines option of find \
+`output:` \
+Find Files by Their Modification Time with -mtime, -atime, and -ctime: \
+These options allow you to find files based on modification (-mtime), access (-atime), or inode change (-ctime) times. \
+... \
+`altered/usage:` \
+`find technical -name "*.txt" -mtime +30` \
+`find technical -name "*.txt" -mtime 0`
+
+## -exec (Chatgpt: chat.openai.com)
+`output:` \
+The -exec option in the find command is a powerful feature that allows you to execute a command on each file that matches your find criteria. \
+This capability extends the functionality of find from just locating files to performing actions on them. Here's a deeper look into how -exec works and some examples: \
+... \
+`altered/usage:` \
+
+
 
