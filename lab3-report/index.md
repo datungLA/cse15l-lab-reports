@@ -149,4 +149,14 @@ This capability extends the functionality of find from just locating files to pe
 `find technical/biomed/ -name "*.txt" -exec wc -l {} \;` \
 `find technical/biomed/ -name "*.txt" -exec grep -r "base pair" {} \;`
 
-
+##  -maxdepth -mindepth (Chatgpt: chat.openai.com)
+`prompt:` \
+more interesting command lines option of find \
+`output:` \
+The -maxdepth and -mindepth options in the find command in Unix are used to control the depth of directories that the find command searches through. \
+-maxdepth levels: This option limits the search to a specific number of directory levels below the command's starting point. For instance, -maxdepth 1 would restrict find to only look in the directory specified and not in any of its subdirectories. If you set -maxdepth 2, it would look in the specified directory and its immediate subdirectories, but no further. \
+-mindepth levels: Conversely, this option tells find to ignore a certain number of directory levels before beginning to search. For example, -mindepth 1 would make find skip the starting directory and begin searching in its subdirectories. With -mindepth 2, the command would start searching from the subdirectories of the immediate subdirectories of the starting point. \
+... \
+`altered/usage:` \
+`find technical -name "*.txt" -maxdepth 1` \
+`find technical -name "*.txt" -mindepth 2`
