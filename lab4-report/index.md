@@ -28,19 +28,19 @@ Here are the combinations of key pressed and their functions:
 ![image](https://github.com/datungLA/cse15l-lab-reports/assets/97591324/0c8d3e87-c6d5-47b8-abdb-b03a9a6e7258)
 Luckily, the first search brings me to the faulty variable that needs to be fixed. \
 In this step, there are multiple key combinations to perform different tasks \
-Here are the combinations of key pressed and their functions: 
+Here are the combinations of key pressed and their functions: \
 1) Key pressed: `<i>`\
-   Function: pressing key 'i' while in Normal Mode will put me into 'Insert' mode where I can edit the content in the file.
+   Function: pressing key 'i' while in Normal Mode will put me into 'Insert' mode where I can edit the content in the file. \
 2) Key pressed: `<right> <right> <right> <right> <right> <right> <delete> <2>` \
    Function: this combination will move my cursor to the right 6 times. By this time, I press 'delete' key to erase the character 1 in index1 and press '2' to insert the character 2 which this should change the variable from 'index1' to 'index2'.
    
 ![image](https://github.com/datungLA/cse15l-lab-reports/assets/97591324/9da5fc68-d6f4-4a48-8a62-bd8f5863b416)
 In this step, there are multiple key combinations to perform different tasks \
-Here are the combinations of key pressed and their functions: 
+Here are the combinations of key pressed and their functions: \
 1) Key pressed: `<esc>`\
-   Function: This combination will exit the 'Insert' mode and return me to the 'Normal' mode. 
+   Function: This combination will exit the 'Insert' mode and return me to the 'Normal' mode. \
 3) Key pressed: `<shift> <;>`\
-   Function: this combination will open the command-line modes.
+   Function: this combination will open the command-line modes. \
 4) Key pressed: `<w> <q> <enter>` \
    Function: this combination will enter the command 'wq' which stands for write and quit. It also understand for save the changes and quit the file.
    
@@ -52,10 +52,10 @@ Since I am still in the right directory, I run this command to run test.sh scrip
 ## Step 9 (git: staging-commit-push)
 ![image](https://github.com/datungLA/cse15l-lab-reports/assets/97591324/a40d3702-a4f9-40c3-bb0b-be5e8c47697d)
 In this step, there are multiple entered commands to perform different tasks \
-Here are the commands and their functions: 
+Here are the commands and their functions: \
 1) Command: `git add .`\
-   Function: this command will move newly modified files to the staging area.
+   Function: this command will move newly modified files to the staging area. \
 2) Command: `git commit -m "finished 1m56s"`\
-   Function: this command will move files from staging area to repository.
+   Function: this command will move files from staging area to repository. \
 3) Command: `git push`\
    Function: this command will push changes to Github.
