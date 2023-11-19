@@ -19,9 +19,9 @@ Since I am now in the right directory, I run this command to run test.sh script 
 In this step, I simply run the command: `vim ListExamples.java` to open ListExamples.java file under vim mode as I am in the same directory as the file. \
 ![image](https://github.com/datungLA/cse15l-lab-reports/assets/97591324/37995ab7-b78d-4bdd-a55c-8a74f1c1f144)
 In this step, there are multiple key combinations to perform different tasks \
-Here are the combinations of key pressed and their functions: 
+Here are the combinations of key pressed and their functions: \
 1) Key pressed: `<shift> <;>`\
-   Function: this combination will open the command-line modes.
+   Function: this combination will open the command-line modes. \
 2) Key pressed: `<shift> </> <i> <n> <d> <e> <x> <1> <enter>` \
    Function: this combination will help me type `?index1` in the command-line. This searches for `index1` first encounter from bottom up and moves the cursor to the beginning of the word.
 
