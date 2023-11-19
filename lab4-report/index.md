@@ -37,9 +37,11 @@ Here are the combinations of key pressed and their functions:
 ![image](https://github.com/datungLA/cse15l-lab-reports/assets/97591324/9da5fc68-d6f4-4a48-8a62-bd8f5863b416)
 In this step, there are multiple key combinations to perform different tasks \
 Here are the combinations of key pressed and their functions: 
-1) Key pressed: `<shift> <;>`\
+1) Key pressed: `<esc>`\
+   Function: This combination will exit the 'Insert' mode and return me to the 'Normal' mode. 
+3) Key pressed: `<shift> <;>`\
    Function: this combination will open the command-line modes.
-2) Key pressed: `<w> <q> <enter>` \
+4) Key pressed: `<w> <q> <enter>` \
    Function: this combination will enter the command 'wq' which stands for write and quit. It also understand for save the changes and quit the file.
    
 ## Step 8 (re-run test.sh)
@@ -48,9 +50,12 @@ Since I am still in the right directory, I run this command to run test.sh scrip
 `bash test.sh`
 
 ## Step 9 (git: staging-commit-push)
-![image](https://github.com/datungLA/cse15l-lab-reports/assets/97591324/a40d3702-a4f9-40c3-bb0b-be5e8c47697d
+![image](https://github.com/datungLA/cse15l-lab-reports/assets/97591324/a40d3702-a4f9-40c3-bb0b-be5e8c47697d)
 In this step, there are multiple entered commands to perform different tasks \
 Here are the commands and their functions: 
-1) Command: git add .
-   Function:
-2) Command: git commit -m "finished 
+1) Command: `git add .`\
+   Function: this command will move newly modified files to the staging area.
+2) Command: `git commit -m "finished 1m56s"`\
+   Function: this command will move files from staging area to repository.
+3) Command: `git push`\
+   Function: this command will push changes to Github.
